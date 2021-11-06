@@ -13,6 +13,14 @@
 		34EBE011271F08E2005CC9EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EBE00F271F08E2005CC9EB /* Main.storyboard */; };
 		34EBE013271F08E3005CC9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EBE012271F08E3005CC9EB /* Assets.xcassets */; };
 		34EBE01E271F0910005CC9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EBE01D271F0910005CC9EB /* LaunchScreen.storyboard */; };
+		7C095B3C27355E870093EC47 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C095B3B27355E870093EC47 /* ItemViewController.swift */; };
+		7C5019162732ACD400784E8C /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5019152732ACD400784E8C /* NewsTableViewController.swift */; };
+		7C5019182732AD3000784E8C /* DisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5019172732AD3000784E8C /* DisplayTableViewCell.swift */; };
+		7C50191A2732AE7600784E8C /* NoticeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5019192732AE7600784E8C /* NoticeTableViewController.swift */; };
+		7C50191C2732AF0B00784E8C /* InformationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50191B2732AF0B00784E8C /* InformationTableViewController.swift */; };
+		7C50191E2732AF3A00784E8C /* SafetyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50191D2732AF3A00784E8C /* SafetyTableViewController.swift */; };
+		7C5019202732AF9E00784E8C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50191F2732AF9E00784E8C /* AboutViewController.swift */; };
+		7C5019242732B71200784E8C /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5019232732B71200784E8C /* BasicCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		34EBE012271F08E3005CC9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34EBE017271F08E3005CC9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34EBE01D271F0910005CC9EB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C095B3B27355E870093EC47 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		7C5019152732ACD400784E8C /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		7C5019172732AD3000784E8C /* DisplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTableViewCell.swift; sourceTree = "<group>"; };
+		7C5019192732AE7600784E8C /* NoticeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeTableViewController.swift; sourceTree = "<group>"; };
+		7C50191B2732AF0B00784E8C /* InformationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTableViewController.swift; sourceTree = "<group>"; };
+		7C50191D2732AF3A00784E8C /* SafetyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyTableViewController.swift; sourceTree = "<group>"; };
+		7C50191F2732AF9E00784E8C /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		7C5019232732B71200784E8C /* BasicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +75,15 @@
 				34EBE009271F08E2005CC9EB /* AppDelegate.swift */,
 				34EBE00B271F08E2005CC9EB /* SceneDelegate.swift */,
 				34EBE00D271F08E2005CC9EB /* ViewController.swift */,
+				7C5019232732B71200784E8C /* BasicCell.swift */,
 				34EBE00F271F08E2005CC9EB /* Main.storyboard */,
+				7C095B3B27355E870093EC47 /* ItemViewController.swift */,
+				7C50191F2732AF9E00784E8C /* AboutViewController.swift */,
+				7C50191D2732AF3A00784E8C /* SafetyTableViewController.swift */,
+				7C50191B2732AF0B00784E8C /* InformationTableViewController.swift */,
+				7C5019192732AE7600784E8C /* NoticeTableViewController.swift */,
+				7C5019172732AD3000784E8C /* DisplayTableViewCell.swift */,
+				7C5019152732ACD400784E8C /* NewsTableViewController.swift */,
 				34EBE012271F08E3005CC9EB /* Assets.xcassets */,
 				34EBE017271F08E3005CC9EB /* Info.plist */,
 				34EBE01D271F0910005CC9EB /* LaunchScreen.storyboard */,
@@ -138,8 +162,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C095B3C27355E870093EC47 /* ItemViewController.swift in Sources */,
+				7C5019242732B71200784E8C /* BasicCell.swift in Sources */,
+				7C5019162732ACD400784E8C /* NewsTableViewController.swift in Sources */,
+				7C50191C2732AF0B00784E8C /* InformationTableViewController.swift in Sources */,
 				34EBE00E271F08E2005CC9EB /* ViewController.swift in Sources */,
+				7C5019202732AF9E00784E8C /* AboutViewController.swift in Sources */,
 				34EBE00A271F08E2005CC9EB /* AppDelegate.swift in Sources */,
+				7C50191A2732AE7600784E8C /* NoticeTableViewController.swift in Sources */,
+				7C50191E2732AF3A00784E8C /* SafetyTableViewController.swift in Sources */,
+				7C5019182732AD3000784E8C /* DisplayTableViewCell.swift in Sources */,
 				34EBE00C271F08E2005CC9EB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
