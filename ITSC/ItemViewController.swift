@@ -48,7 +48,7 @@ class ItemViewController: UIViewController {
                             DispatchQueue.main.async {
                                 
                                 //var content="<html>\r\n<meta charset=\"utf-8\">\r\n<base href=\"https://itsc.nju.edu.cn\"/>\r\n"
-                                var content = "<html><body><meta charset=\"utf-8\"><base href=\"https://itsc.nju.edu.cn\"/><meta name=\"renderer\" content=\"webkit\" /><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"><meta name=\"viewport\" content=\"width=device-width,user-scalable=0,initial-scale=0.8, minimum-scale=0.6, maximum-scale=0.8\"/>"
+                                var content = "<html><body bgcolor=white><meta charset=\"utf-8\"><base href=\"https://itsc.nju.edu.cn\"/><meta name=\"renderer\" content=\"webkit\" /><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"><meta name=\"viewport\" content=\"width=device-width,user-scalable=1,initial-scale=0.8 minimum-scale=0.6, maximum-scale=0.8\"/>"
                                 var lines = string.split(separator: "\r\n")
                                 var flag = false
                                 

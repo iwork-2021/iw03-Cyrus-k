@@ -13,8 +13,10 @@ class AboutViewController: UIViewController {
     let webView = WKWebView()
     override func viewDidLoad() {
         super.viewDidLoad()
+        //self.aboutview.addSubview(self.webView)
         self.view = self.webView
         self.loadUrl()
+        
         // Do any additional setup after loading the view.
     }
     func loadUrl(){
@@ -38,7 +40,7 @@ class AboutViewController: UIViewController {
                                 var lines = string.split(separator: "\r\n")
                                 var flag = false
                                 var timetorecord = false
-                                var content = "<html><body>"
+                                var content = "<html><body><h1>"
                                 for i in lines{
                                     var symbol = i.split(separator: "\t")
                                     if i == "<!--Start||footer-->"{
@@ -64,8 +66,10 @@ class AboutViewController: UIViewController {
                                         }
                                     }
                                 }
-                                content = content + "</body></html>"
+                                content = content + "</h1></body></html>"
+                    
                     self.webView.loadHTMLString(content, baseURL: nil)
+                                
             }
                 
         }
